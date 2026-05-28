@@ -1,0 +1,25 @@
+# --- Personal / private workspaces ---
+# Anything in a private/ or scratch/ folder at any depth stays local.
+private/
+scratch/
+*.private.md
+*.local.md
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# --- Editor / IDE state ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- AI tool state ---
+.copilot/
+.claude/
+.cursor/
+.aider*
