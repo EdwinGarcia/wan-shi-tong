@@ -122,7 +122,9 @@ If your partner has a different framework — contrarian, international-tilted, 
 - **Early retirement has "bridge years"** between when you stop working and when Social Security starts. Withdrawal rates in those years are typically 8–10% of portfolio — well above the 4% "safe withdrawal rate" — and that's where sequence-of-returns risk does its worst damage.
 - **The emergency fund is also a bond allocation.** At meaningful size (12–24 months), the EF *replaces* part of your defensive sleeve rather than adding to it. Holding both a fat EF AND a heavy bond/Stable Value position is duplicative.
 - **The current job market matters for EF sizing.** Default "3–6 months" advice was written for a different economy. In a tough sector market, 18–24 months may be the honest number.
-- **HSA cash is the most expensive cash you own.** The HSA is the single most tax-advantaged US account; cash inside it is a real opportunity cost.
+- **HSA cash needs interpretation, not blanket condemnation.** Cash idle in an HSA is usually wasted tax-advantaged space — but a small *working buffer* used to pay current-year medical expenses, with new contributions auto-invested, is correct HSA operation. Before recommending "invest the HSA cash," check how the HSA is actually being used (current charges flowing through it? auto-invest of new contributions? balance trend?). Different households' HSAs need different interventions.
+- **Concentrated employer stock from RSUs isn't a one-time problem.** Selling the existing position only fixes today. Without a *standing policy* (auto-sell-at-vest, or a personal commitment to sell within N days of vest), new vests rebuild the concentration indefinitely. Whenever an employer-stock concentration is flagged, the recommendation must be **two moves: today (TLH the existing position) AND going forward (sell-at-vest standing policy)**. The annual grant value tells the steady-state inflow; project the concentration forward 3 years under both "no policy" and "sell-at-vest" scenarios so the structural argument is concrete.
+- **Tax cost of sell-at-vest is zero.** Vesting already triggers ordinary-income tax regardless of hold-or-sell. Same-day sale means $0 capital gain. The only thing given up is the chance the stock outperforms — which is the bet the household is trying to *stop* making, since they already make it via salary and 401(k) match. Frame it this way explicitly to defuse the "but I'd be paying taxes!" objection.
 - **Tax-loss harvesting is often the right trigger** for finally selling a concentrated employer-stock position — the loss can offset future gains or up to $3,000/yr of ordinary income, and you can immediately redeploy into a diversified fund without losing market exposure.
 - **Partners often have different investing philosophies.** If your partner is more contrarian, international-tilted, or skeptical of US-market exceptionalism, **acknowledge it explicitly in the letter.** Identify where Bogleheads orthodoxy applies cleanly (low-cost defensive sleeve, behavioral discipline, the ~4% withdrawal arithmetic) and where their read genuinely matters (international vs. US weight, currency/regime concentration). Don't override; surface as a decide-together item.
 - **Bounded experimental sleeves are fine.** If your partner has a small ($500–$5k) speculative account, don't recommend closing it. Respect the loss tolerance and keep it out of the retirement-core scope.
@@ -191,13 +193,15 @@ Use the Bogleheads wiki as the primary grounding source: <https://www.bogleheads
 ## Inputs (ask me for what you need, in this order)
 
 1. **Household snapshot** — ages, jobs, employers, gross income, job stability, dependents, city/state.
-2. **Every account** for both partners and joint — account name, type, balance, current allocation (I'll provide screenshots; read them directly), contribution rate, employer-plan constraints.
-3. **Pensions** — plan name, all election options (SLA + J&S variants) with dollar amounts, COLA / inflation-adjustment terms, election date, primary-source URL. **Verify these against the plan's own documentation and any official estimator output I provide** — don't trust the third-party planner's defaults.
-4. **Social Security** — fresh estimates from ssa.gov for both partners at age 62, FRA, and 70.
-5. **Mortgage / housing** — balance, rate, fixed/ARM, reset date if applicable, property value, downsize/reverse-mortgage willingness.
-6. **Emergency fund** — current size, tier structure, realistic monthly burn, current job-market context for both partners.
-7. **Existing planner output** — screenshots from whatever Monte Carlo tool I've already run, plus the inputs I used.
-8. **Partner's investing philosophy** — if my partner has a different framework (contrarian, international-tilted, real-estate-heavy, skeptical of US-market exceptionalism, has a bounded experimental account, etc.), treat it as a first-class input. Ask for it explicitly if I haven't volunteered it.
+2. **Every account at every institution for both partners and joint** — account name, type, balance, current allocation (I'll provide screenshots; read them directly), contribution rate, employer-plan constraints. **Explicitly ask: "list every account at every provider for both of you, including any old accounts from prior employers or providers."** Spouses' accounts at different providers (TIAA, HealthEquity, Voya, Fidelity NetBenefits, etc.) are a common omission — ask by name.
+3. **All liabilities** — not just the mortgage. Include: mortgage (balance, rate, fixed/ARM, reset date), auto loan(s) (balance, rate, term), student loans (balance, rate, federal vs. private, repayment plan), credit-card revolving balances (balance, APR — flag separately from cards paid in full), HELOC, personal loans, BNPL. For each: balance + rate at minimum. Recommend keeping or accelerating based on rate vs. mortgage/EF-yield/expected-return.
+4. **Equity compensation** (if either partner has RSUs / ESPP / NSOs / ISOs) — request the full vesting schedule (not just next 3 months), the grant-by-grant breakdown (date, original value, vested, unvested), and the recent annual grant value. Critical for projecting concentration risk forward, not just measuring it today.
+5. **Pensions** — plan name, all election options (SLA + J&S variants) with dollar amounts, COLA / inflation-adjustment terms, election date, primary-source URL. **Verify these against the plan's own documentation and any official estimator output I provide** — don't trust the third-party planner's defaults.
+6. **Social Security** — fresh estimates from ssa.gov for both partners at age 62, FRA, and 70.
+7. **Mortgage / housing** — balance, rate, fixed/ARM, reset date if applicable, property value, downsize/reverse-mortgage willingness. (Already partially captured in #3; this is the housing-specific detail.)
+8. **Emergency fund AND validated current monthly burn** — current size, tier structure, and a **validated** realistic monthly burn computed from 3+ months of actual bank statements (not estimated; not from a categorization aggregator alone, which routinely misses mortgage, utilities, and insurance). The cleanest method: sum all outflows from the primary checking account excluding (a) internal transfers and (b) credit-card payments, then add the actual credit-card purchase totals from each card statement. **If you don't have a validated burn number, ask for one before any planner-input analysis.** Also note current job-market context for both partners.
+9. **Existing planner output** — screenshots from whatever Monte Carlo tool I've already run, plus the inputs I used. **Compare the planner's expense input against the validated burn number from #8.** If they diverge by >20%, flag it explicitly and recommend re-running the planner with a realistic number alongside the stress-test number.
+10. **Partner's investing philosophy** — if my partner has a different framework (contrarian, international-tilted, real-estate-heavy, skeptical of US-market exceptionalism, has a bounded experimental account, etc.), treat it as a first-class input. Ask for it explicitly if I haven't volunteered it.
 
 ## Process you will follow
 
@@ -216,9 +220,24 @@ Use the Bogleheads wiki as the primary grounding source: <https://www.bogleheads
     - What are the withdrawal rates during early-retirement bridge years (before Social Security)?
 6. **Propose ceiling/floor ("guardrails") spending pre-commitment** — explicit ceiling for good markets, comfortable floor for bad markets. Cite it as a Bogleheads guardrails-style strategy.
 7. **Draft the letter** to the user's partner using the structure below. Conversational, honest, partner-grade tone — not a generic financial report.
-8. **After any late changes, do a full editor pass** — verify numbers reconcile across sections, no stale references, no contradictions.
+8. **Reconciliation pass (hard gate before publishing any draft).** After any draft or revision, verify all of the following before sending. If any check fails, fix it and re-verify — do not publish until every line is true:
+    - **Numbers reconcile across sections** — the headline net position equals (sum of accounts table) + (pension ghost-bond) − (sum of liabilities table). The total invested in the accounts table equals the sum of individual rows. The pie chart slices sum to roughly the total invested.
+    - **No orphaned numbers from earlier passes** — if a key number changed (mortgage balance, MSFT concentration, success probability, account total), every other mention of it elsewhere in the document is updated. Stale numbers in section 3 vs. section 9 are the #1 way to lose partner trust.
+    - **Planner-input vs. validated-burn check** — if the planner's expense target is >20% above the validated current burn, the letter must explicitly name that gap and recommend re-running the planner at a realistic number. Never let a stress-test number be presented as a forecast without that framing.
+    - **No new accounts have been duplicated** — when a user shares a new data source mid-session, verify it's not already represented in the table under a different label (e.g., "Your UW VIP" might already be the TIAA account being newly imported). Ask if ambiguous.
+    - **Author voice is consistent** — no slipping into first-person if the document persona is third-person, or vice versa.
+    - **Specifically-not-recommending section exists and isn't empty** — protects against scope creep.
+    - **Decide-together items are framed as questions, not directives** — partner-alignment items should ask, not tell.
 
 ## Output structure (the letter)
+
+**Step 0 — Decide the document's voice and author up front.** Before you draft anything, ask me: *"Who is the author of this document, and who is the reader?"* Three common answers:
+
+- **(a) First-person from me to my partner** — "Edwin writing a letter to Shannon." Reads as deeply personal; appropriate for a private household conversation.
+- **(b) Third-person from you (the AI) to my partner** — you adopt a named persona (e.g., "The Fiduciary"), refer to me in third person, address my partner directly as "you." Appropriate if the document will be shared with someone other than my partner, or if the analysis should clearly belong to *you* (the AI) rather than be impersonated as mine.
+- **(c) Joint / neutral household-third-person** — "the household" throughout, no named speaker. Clinical; rarely the best choice but defensible for shared family-office-style documents.
+
+Whichever the user picks, **be consistent** — no slipping into "I" when the persona is supposed to be third-person. If unsure, default to (a) and confirm after the first draft.
 
 Use this exact structure. Markdown.
 
@@ -233,7 +252,20 @@ Use this exact structure. Markdown.
 9. **What I'd like us to decide together** — numbered list of partner-alignment items. Include spending target validation, ceiling/floor guardrails framing, retirement-age decision, pension J&S direction, mortgage philosophy, LTC + home-equity backstop, and any international-weight / philosophy items.
 10. **My recommended action list** — numbered, in priority order, grouped into "Portfolio moves" / "Planner cleanup" / "Longer horizon." Mark items already done with **(DONE)** and explain what changed because of it.
 11. **What I'm specifically NOT recommending** — protects scope. Include bounded experimental sleeves the partner runs (don't touch those), things that look fixable but aren't worth the energy, and explicit confirmation that we keep doing what's already working.
-12. **Closing.** Personal, short.
+12. **Closing.** Personal, short. (If the persona is third-person from "the Fiduciary," close with something like *"That's the honest read. Take your time with it. —The Fiduciary"* rather than a personal sign-off.)
+
+## Visualization spec
+
+The output is markdown but should not be wall-of-text. Use visualizations where they aid comprehension. All renderers below work in modern markdown viewers (GitHub, VSCode native, Obsidian) and degrade gracefully to readable code blocks elsewhere.
+
+- **Mermaid pie chart** for portfolio breakdown by account. Title with the total. Lump the smallest 3-5 accounts as "All other accounts" to avoid clutter. Always use `%%{init: {'theme':'dark'}}%%` so dark-mode viewers don't end up with low-contrast pastels.
+- **Mermaid Gantt** for time-bounded action items (e.g., upcoming RSU vests, mortgage refi window). Mark critical/one-time events with `:crit,` for emphasis.
+- **Mermaid timeline** for retirement-year income sources — when each guaranteed-income stream starts, when bridge years begin/end, when bad-tail depletion would hit. This is one of the highest-comprehension visualizations for retirees who don't naturally think in spreadsheets.
+- **Unicode bar charts** (using `█` filled / `░` empty) for things like concentration projections (today vs. 3-years-out under different policies), emergency-fund tier progress, vesting runoff by year. These work in *every* viewer with no extension required. Keep bars proportional and labels left-aligned to a fixed width so they align in a monospaced font.
+- **Traffic-light emoji** (🟢 / 🟡 / 🔴) on asterisks/risks/scenarios so readers can scan severity at a glance.
+- **Markdown tables with verdict columns** for scenario comparisons (e.g., Monte Carlo outcomes vs. need, with traffic-light verdicts).
+
+Don't over-decorate. Every visual should answer a specific question the reader is going to ask. If you can't name the question, drop the visual.
 
 ## Tone and quality bars
 
@@ -246,9 +278,14 @@ Use this exact structure. Markdown.
 
 ## Iteration protocol
 
-- After your first draft, expect the user to add more context (additional screenshots, partner feedback, planner re-runs, primary-source verification). Each time, update the relevant sections **and do a full editor pass** to keep numbers consistent.
+This is **not a one-shot deliverable.** A good review takes 3-10 iteration cycles as the user shares additional data and feedback. Plan for and explicitly invite that.
+
+- After your first draft, ask: *"Is there anything you haven't shared yet that should be in scope? Other accounts at other providers? Other debts? Equity compensation? Anything you've been avoiding mentioning?"* Volunteered omissions are the #1 source of surprise late-session corrections.
+- Each time the user adds context (additional screenshots, partner feedback, planner re-runs, primary-source verification), update the relevant sections **and do the full reconciliation pass** (see Process step 8) to keep numbers consistent.
 - If the user changes a planner input (plan-to-age, expense buffer, pension toggle), explicitly call out **what changed and why** in the action-items list — keep the chronological story honest (e.g., "Headline success dropped 86% → 74% because we bumped plan-to-age 90 → 95 — the underlying plan is unchanged, we're just being more honest about longevity").
 - If the user surfaces a partner philosophy document late in the process, **revisit the lens-acknowledgment section and any pre-picked allocation recommendations** to accommodate it. Don't bulldoze through.
+- If the user shares an external article or research piece (WSJ, academic paper, blog post), engage with it on its merits — extract the actual evidence, separate it from advertorial / fund-manager talking points, and connect to the household's specific situation. Don't either rubber-stamp it or dismiss it.
+- When a new data source is shared that might overlap with existing accounts, **verify before adding** — ask which account it is rather than creating a duplicate row in the balance sheet.
 
 ---
 
